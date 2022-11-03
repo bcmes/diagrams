@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T17:24:08.538Z" agent="5.0 (X11; Ubuntu)" etag="B8BvybUrJkKJ2jeB9Uxk" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-03T17:29:51.187Z" agent="5.0 (X11; Ubuntu)" etag="VNBJdFeD8ykFp4-CHoS5" version="20.5.1" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Factory Method">
     <mxGraphModel dx="782" dy="1653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -310,6 +310,14 @@
         <mxCell id="Ngu8JIdxeSbWleaiAYU3-1" value="&lt;h1&gt;Abstract Factory&lt;/h1&gt;&lt;p&gt;Permite que você agrupe e produza&amp;nbsp; uma familia objetos relacionados.Os produtos de uma familia não são compativeis&amp;nbsp; com de outra familia.&lt;/p&gt;" style="text;html=1;strokeColor=#000000;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="505" y="10" width="315" height="120" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="I3kS1On3BU9ZxPluxb2h" name="Builder">
+    <mxGraphModel dx="782" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
