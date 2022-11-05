@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T16:40:12.335Z" agent="5.0 (X11; Ubuntu)" etag="jYIDLtYhornkGjFdbs-h" version="20.5.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-05T16:50:51.284Z" agent="5.0 (X11; Ubuntu)" etag="KpVpC_L8aLNl1QOwcIc3" version="20.5.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Factory Method">
     <mxGraphModel dx="782" dy="1653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -399,14 +399,25 @@
             <mxPoint x="720" y="420" as="targetPoint" />
             <mxPoint x="610" y="340" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="658" y="350" />
-              <mxPoint x="640" y="350" />
+              <mxPoint x="640" y="345" />
               <mxPoint x="640" y="439" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xJi3bgBFAOg8sminCq8i-4" value="&lt;div&gt;Builder b = new Builder1()&lt;/div&gt;&lt;div&gt;Director d = new Director(b)&lt;/div&gt;&lt;div&gt;d.make(&quot;simple&quot;)&lt;/div&gt;&lt;div&gt;Product1 p = b.build()&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=11;size=10;fillColor=#000000;fontColor=#CCFF99;strokeColor=#E6E6E6;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="575" y="60" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xJi3bgBFAOg8sminCq8i-5" value="product = &lt;b&gt;new&lt;/b&gt; Product1()" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=11;size=10;fillColor=#000000;fontColor=#CCFF99;strokeColor=#E6E6E6;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="250" y="500" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xJi3bgBFAOg8sminCq8i-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=65;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#CCFF99;fontColor=#E6E6E6;endArrow=open;endFill=0;exitX=-0.022;exitY=0.178;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="l3HsiN5Vnn1ciLPgWp9q-9" target="xJi3bgBFAOg8sminCq8i-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xJi3bgBFAOg8sminCq8i-7" value="return this.product" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=11;size=10;fillColor=#000000;fontColor=#CCFF99;strokeColor=#E6E6E6;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="270" y="550" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xJi3bgBFAOg8sminCq8i-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=130;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#CCFF99;fontColor=#E6E6E6;endArrow=open;endFill=0;exitX=-0.016;exitY=0.789;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="l3HsiN5Vnn1ciLPgWp9q-9" target="xJi3bgBFAOg8sminCq8i-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
