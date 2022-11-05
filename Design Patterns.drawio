@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T15:36:12.659Z" agent="5.0 (X11; Ubuntu)" etag="lkrv4Jm_rCBUj4GE8r0k" version="20.5.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-05T15:42:54.391Z" agent="5.0 (X11; Ubuntu)" etag="yxPb0g-zWvloKN-cU8jG" version="20.5.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Factory Method">
     <mxGraphModel dx="782" dy="1653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -314,7 +314,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="I3kS1On3BU9ZxPluxb2h" name="Builder">
-    <mxGraphModel dx="782" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1022" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -355,6 +355,21 @@
         </mxCell>
         <mxCell id="l3HsiN5Vnn1ciLPgWp9q-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="l3HsiN5Vnn1ciLPgWp9q-10">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="l3HsiN5Vnn1ciLPgWp9q-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="l3HsiN5Vnn1ciLPgWp9q-15" target="rZWGvsLs8HfumIUdatL5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l3HsiN5Vnn1ciLPgWp9q-15" value="Director" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="89" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l3HsiN5Vnn1ciLPgWp9q-16" value="- builder: Builder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l3HsiN5Vnn1ciLPgWp9q-15">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l3HsiN5Vnn1ciLPgWp9q-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="l3HsiN5Vnn1ciLPgWp9q-15">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="l3HsiN5Vnn1ciLPgWp9q-18" value="+ Director(builder)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l3HsiN5Vnn1ciLPgWp9q-15">
+          <mxGeometry y="60" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
