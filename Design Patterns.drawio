@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T16:53:34.047Z" agent="5.0 (X11; Ubuntu)" etag="mnKtGwNhMHhlIntrQzQp" version="20.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-05T02:33:17.228Z" agent="5.0 (X11; Ubuntu)" etag="e1Aa6COI0TTC8PkAp5vB" version="20.5.1" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Factory Method">
-    <mxGraphModel dx="782" dy="1653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="702" dy="1960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -155,7 +155,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BomtLqVlqRJRR5CAD61R" name="Abstract Factory">
-    <mxGraphModel dx="782" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -314,12 +314,21 @@
     </mxGraphModel>
   </diagram>
   <diagram id="I3kS1On3BU9ZxPluxb2h" name="Builder">
-    <mxGraphModel dx="1022" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="994" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="M6ciEMqyb9JUebMnMoU7-1" value="&lt;h1&gt;Builder&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Propósito:&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Instanciar objetos complexos. Um objeto é complexo quando é possível produzir diferentes tipos dele, usando o mesmo construtor.&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Problema que se propõe resolver:&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Instanciacão de objetos com várias atributos a serem preenchidos, onde cada conjunto de atributos informados gera uma variacão do &quot;tipo&quot; do objeto.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Solucões comuns:&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;S1. Um construtor com todos os atributos possíveis, para os diversos &quot;tipos&quot; deste objeto.&lt;/p&gt;&lt;p&gt;P1. Se a linguagem não permitir, tipos defaults com alias, como no Kotlin, teremos instaciacões informando parametros desnecessários entre os &quot;tipos&quot; desejados.&lt;/p&gt;&lt;p&gt;S2. Definir um tipo base, e gerar subclasses apartir dele, conforme a necessidade, para cada tipo desejado.&lt;/p&gt;&lt;p&gt;P2. Acabará gerando uma grande hierarquia de classes.&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Proposta:&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Definir o processo de construcão do objeto, em uma outra classe, comumente chamada de Builder.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#000000;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="M6ciEMqyb9JUebMnMoU7-1" value="&lt;h1&gt;Builder&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Propósito:&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Instanciar objetos complexos passo a passo, não permitindo seu uso pelo cliente, até estar completo. Um objeto é complexo quando é possível produzir diferentes tipos dele, usando o mesmo construtor.&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Problema que se propõe resolver:&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Instanciacão de objetos com várias atributos a serem preenchidos, onde cada conjunto de atributos informados gera uma variacão do &quot;tipo&quot; do objeto.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Solucões comuns:&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;S1. Um construtor com todos os atributos possíveis, para os diversos &quot;tipos&quot; deste objeto.&lt;/p&gt;&lt;p&gt;P1. Se a linguagem não permitir, tipos defaults com alias, como no Kotlin, teremos instaciacões informando parametros desnecessários entre os &quot;tipos&quot; desejados.&lt;/p&gt;&lt;p&gt;S2. Definir um tipo base, e gerar subclasses apartir dele, conforme a necessidade, para cada tipo desejado.&lt;/p&gt;&lt;p&gt;P2. Acabará gerando uma grande hierarquia de classes.&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Proposta:&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Definir o processo de construcão do objeto, em uma outra classe, comumente chamada de Builder.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#E6E6E6;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;fontColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="10" y="10" width="315" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="rZWGvsLs8HfumIUdatL5-1" value="&lt;&lt;interface&gt;&gt;&#xa;Builder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#E6E6E6;fontColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="345" y="120" width="135" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rZWGvsLs8HfumIUdatL5-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontColor=#E6E6E6;" vertex="1" parent="rZWGvsLs8HfumIUdatL5-1">
+          <mxGeometry y="40" width="135" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="rZWGvsLs8HfumIUdatL5-4" value="+ reset()&#xa;+ buildStepA()&#xa;+ buildStepB()&#xa;+ buildStepZ()&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#E6E6E6;" vertex="1" parent="rZWGvsLs8HfumIUdatL5-1">
+          <mxGeometry y="48" width="135" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
