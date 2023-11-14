@@ -1,11 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T01:23:04.741Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="sFIU7IWKGUDmj8NZLuOR" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T01:45:49.880Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="B8vH_rAMqN1tC2-YkSRz" version="22.1.0" type="github">
   <diagram name="Página-1" id="61qH_fHiEQy9dxVOCFJl">
     <mxGraphModel dx="1434" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mB1KlisMlrXwwt_wviY5-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://assets.algaworks.com/portal/content/especialista-spring-rest/images/diagrama-de-classes-de-dominio.jpg;" vertex="1" parent="1">
-          <mxGeometry x="10" y="10" width="1001" height="1200" as="geometry" />
+        <mxCell id="mB1KlisMlrXwwt_wviY5-6" value="Cozinha" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="440" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="mB1KlisMlrXwwt_wviY5-7" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="mB1KlisMlrXwwt_wviY5-6">
+          <mxGeometry width="439.99999999999994" height="224" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mB1KlisMlrXwwt_wviY5-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&amp;lt;&amp;lt;Aggregate Root&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Cozinha&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nome: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="mB1KlisMlrXwwt_wviY5-6">
+          <mxGeometry x="50" y="90" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
