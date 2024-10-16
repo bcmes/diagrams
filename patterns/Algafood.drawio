@@ -29,7 +29,7 @@
         </mxCell>
         <mxCell id="IBaLcwhivks5Z2fFePnV-7" value="-itens" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IBaLcwhivks5Z2fFePnV-4">
           <mxGeometry x="0.0444" y="2" relative="1" as="geometry">
-            <mxPoint x="13" y="-13" as="offset" />
+            <mxPoint x="3" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IBaLcwhivks5Z2fFePnV-5" value="1" style="endArrow=open;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mB1KlisMlrXwwt_wviY5-8" target="IBaLcwhivks5Z2fFePnV-3">
@@ -40,7 +40,7 @@
         </mxCell>
         <mxCell id="IBaLcwhivks5Z2fFePnV-6" value="-status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IBaLcwhivks5Z2fFePnV-5">
           <mxGeometry x="-0.441" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="1" y="6" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
