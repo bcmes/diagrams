@@ -193,7 +193,7 @@
         </mxCell>
         <mxCell id="PLjw9fBJMAhiGpy06mUo-54" value="1..n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PLjw9fBJMAhiGpy06mUo-52">
           <mxGeometry x="0.1846" relative="1" as="geometry">
-            <mxPoint x="-20" y="27" as="offset" />
+            <mxPoint x="-20" y="26" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PLjw9fBJMAhiGpy06mUo-55" value="&lt;b&gt;Status&lt;/b&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
