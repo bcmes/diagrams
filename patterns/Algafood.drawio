@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.17">
   <diagram name="Página-1" id="61qH_fHiEQy9dxVOCFJl">
-    <mxGraphModel dx="926" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,47 +15,47 @@
         <mxCell id="mB1KlisMlrXwwt_wviY5-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&amp;lt;&amp;lt;Aggregate Root&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Pedido&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;- codigo : String&lt;br&gt;&amp;nbsp;- valorTotal : BigDecimal&lt;br&gt;&amp;nbsp;- dataCriacao : DateTime&lt;br&gt;&amp;nbsp;- dataConfirmacao : DateTime&lt;br&gt;&amp;nbsp;- dataEntrega : DateTime&lt;br&gt;&amp;nbsp;- dataCancelamento : DateTime&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="150.68" y="289.38" width="179.32" height="170.62" as="geometry" />
         </mxCell>
-        <mxCell id="IBaLcwhivks5Z2fFePnV-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ItemPedido&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- quantidade : Integer&lt;/div&gt;&lt;div&gt;&amp;nbsp;- precoUnitario : BigDecimal&lt;/div&gt;&lt;div&gt;&amp;nbsp;- precoTotal : BigDecimal &lt;br&gt;&lt;/div&gt;&amp;nbsp;- observacao : String" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="IBaLcwhivks5Z2fFePnV-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Item&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- quantidade : Integer&lt;/div&gt;&lt;div&gt;&amp;nbsp;- precoUnitario : BigDecimal&lt;/div&gt;&lt;div&gt;&amp;nbsp;- precoTotal : BigDecimal &lt;br&gt;&lt;/div&gt;&amp;nbsp;- observacao : String" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="420" y="324.38" width="160" height="100.62" as="geometry" />
         </mxCell>
-        <mxCell id="IBaLcwhivks5Z2fFePnV-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Pedido&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;CRIADO&lt;/div&gt;&lt;div&gt;&amp;nbsp;CONFIRMADO&lt;/div&gt;&lt;div&gt;&amp;nbsp;ENTREGUE&lt;/div&gt;&lt;div&gt;&amp;nbsp;CANCELADO&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="IBaLcwhivks5Z2fFePnV-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Status&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;CRIADO&lt;/div&gt;&lt;div&gt;&amp;nbsp;CONFIRMADO&lt;/div&gt;&lt;div&gt;&amp;nbsp;ENTREGUE&lt;/div&gt;&lt;div&gt;&amp;nbsp;CANCELADO&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="185.68" y="510" width="109.32" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IBaLcwhivks5Z2fFePnV-4" value="" style="endArrow=none;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="mB1KlisMlrXwwt_wviY5-8" target="IBaLcwhivks5Z2fFePnV-2">
+        <mxCell id="IBaLcwhivks5Z2fFePnV-4" value="" style="endArrow=none;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" parent="1" source="mB1KlisMlrXwwt_wviY5-8" target="IBaLcwhivks5Z2fFePnV-2" edge="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="300" y="410" as="sourcePoint" />
             <mxPoint x="460" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IBaLcwhivks5Z2fFePnV-7" value="-itens" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IBaLcwhivks5Z2fFePnV-4">
+        <mxCell id="IBaLcwhivks5Z2fFePnV-7" value="-itens" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IBaLcwhivks5Z2fFePnV-4" vertex="1" connectable="0">
           <mxGeometry x="0.0444" y="2" relative="1" as="geometry">
             <mxPoint x="3" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IBaLcwhivks5Z2fFePnV-5" value="" style="endArrow=open;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mB1KlisMlrXwwt_wviY5-8" target="IBaLcwhivks5Z2fFePnV-3">
+        <mxCell id="IBaLcwhivks5Z2fFePnV-5" value="" style="endArrow=open;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="mB1KlisMlrXwwt_wviY5-8" target="IBaLcwhivks5Z2fFePnV-3" edge="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="300" y="410" as="sourcePoint" />
             <mxPoint x="460" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IBaLcwhivks5Z2fFePnV-6" value="-status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IBaLcwhivks5Z2fFePnV-5">
+        <mxCell id="IBaLcwhivks5Z2fFePnV-6" value="-status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IBaLcwhivks5Z2fFePnV-5" vertex="1" connectable="0">
           <mxGeometry x="-0.441" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IBaLcwhivks5Z2fFePnV-8" value="Produto" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=0;collapsible=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="IBaLcwhivks5Z2fFePnV-8" value="Produto" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=0;collapsible=0;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="690" y="160" width="250" height="480.62" as="geometry" />
         </mxCell>
-        <mxCell id="IBaLcwhivks5Z2fFePnV-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Produto&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;- descricao : String&lt;br&gt;&amp;nbsp;- preco : BigDecimal&lt;br&gt;&amp;nbsp;- ativo : Boolean" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="IBaLcwhivks5Z2fFePnV-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Produto&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;- descricao : String&lt;br&gt;&amp;nbsp;- preco : BigDecimal&lt;br&gt;&amp;nbsp;- ativo : Boolean" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="730" y="331.88" width="120" height="85.62" as="geometry" />
         </mxCell>
-        <mxCell id="IBaLcwhivks5Z2fFePnV-10" value="" style="endArrow=open;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IBaLcwhivks5Z2fFePnV-2" target="IBaLcwhivks5Z2fFePnV-9">
+        <mxCell id="IBaLcwhivks5Z2fFePnV-10" value="" style="endArrow=open;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IBaLcwhivks5Z2fFePnV-2" target="IBaLcwhivks5Z2fFePnV-9" edge="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="250" y="470" as="sourcePoint" />
             <mxPoint x="250" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IBaLcwhivks5Z2fFePnV-11" value="-produto" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IBaLcwhivks5Z2fFePnV-10">
+        <mxCell id="IBaLcwhivks5Z2fFePnV-11" value="-produto" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IBaLcwhivks5Z2fFePnV-10" vertex="1" connectable="0">
           <mxGeometry x="-0.441" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="6" as="offset" />
           </mxGeometry>
