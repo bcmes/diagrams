@@ -196,6 +196,14 @@
             <mxPoint x="-20" y="27" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="PLjw9fBJMAhiGpy06mUo-55" value="&lt;b&gt;Status&lt;/b&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="670" width="160" height="120" as="geometry">
+            <mxRectangle x="10" y="465" width="80" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLjw9fBJMAhiGpy06mUo-56" value="&lt;div&gt;A_VENCER&lt;/div&gt;&lt;div&gt;QUITADO&lt;/div&gt;&lt;div&gt;PARCIALMENTE_PAGO&lt;/div&gt;&lt;div&gt;VENCIDO&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="PLjw9fBJMAhiGpy06mUo-55">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
