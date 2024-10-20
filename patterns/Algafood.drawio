@@ -102,14 +102,14 @@
             <mxPoint x="740" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PLjw9fBJMAhiGpy06mUo-12" value="1..n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PLjw9fBJMAhiGpy06mUo-11">
+        <mxCell id="PLjw9fBJMAhiGpy06mUo-12" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PLjw9fBJMAhiGpy06mUo-11">
           <mxGeometry x="0.2923" relative="1" as="geometry">
-            <mxPoint x="15" y="-10" as="offset" />
+            <mxPoint x="25" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PLjw9fBJMAhiGpy06mUo-13" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PLjw9fBJMAhiGpy06mUo-11">
+        <mxCell id="PLjw9fBJMAhiGpy06mUo-13" value="0..n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PLjw9fBJMAhiGpy06mUo-11">
           <mxGeometry x="0.1846" relative="1" as="geometry">
-            <mxPoint x="-49" y="-10" as="offset" />
+            <mxPoint x="-39" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
