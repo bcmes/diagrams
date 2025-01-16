@@ -83,7 +83,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zdvPL0EepbM3utq5RQz7" name="RDS">
-    <mxGraphModel dx="1834" dy="1160" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2286" dy="1194" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -144,7 +144,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="u0xU5s94ZhSzKIXWFsp2-7" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application" vertex="1" parent="1">
-          <mxGeometry x="260" y="-70" width="50" height="34" as="geometry" />
+          <mxGeometry x="263" y="3" width="50" height="34" as="geometry" />
         </mxCell>
         <mxCell id="u0xU5s94ZhSzKIXWFsp2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="u0xU5s94ZhSzKIXWFsp2-7" target="u0xU5s94ZhSzKIXWFsp2-11">
           <mxGeometry relative="1" as="geometry" />
@@ -153,6 +153,9 @@
           <mxGeometry x="0.4511" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="10" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="u0xU5s94ZhSzKIXWFsp2-21" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Failback&lt;/h1&gt;&lt;p&gt;Algum recurso deve monitorar a replica RDS principal, para quando ela voltar ao normal,o trafego ser redirecionado para ela.&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-112" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
