@@ -83,7 +83,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zdvPL0EepbM3utq5RQz7" name="RDS">
-    <mxGraphModel dx="2286" dy="1194" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2286" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -154,8 +154,8 @@
             <mxPoint x="1" y="10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u0xU5s94ZhSzKIXWFsp2-21" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Failback&lt;/h1&gt;&lt;p&gt;Algum recurso deve monitorar a replica RDS principal, para quando ela voltar ao normal,o trafego ser redirecionado para ela.&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="450" y="-112" width="180" height="120" as="geometry" />
+        <mxCell id="u0xU5s94ZhSzKIXWFsp2-21" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Failback&lt;/h1&gt;&lt;p&gt;1. Algum recurso deve monitorar a replica RDS principal, para quando ela voltar ao normal,o trafego ser redirecionado para ela.&lt;/p&gt;&lt;p&gt;2. E o que acontece com os dados que só estão no RDS Standby?&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-281" y="50" width="180" height="193" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
