@@ -22,15 +22,6 @@
         <mxCell id="UQ3-S7Dx66AIJ2ZyxujE-6" value="Financial" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;" vertex="1" parent="1">
           <mxGeometry x="570.75" y="526" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="UQ3-S7Dx66AIJ2ZyxujE-7" value="VPC" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="90" width="240" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="UQ3-S7Dx66AIJ2ZyxujE-8" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#F59D56;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="700.25" y="120" width="199.5" height="199.5" as="geometry" />
-        </mxCell>
-        <mxCell id="UQ3-S7Dx66AIJ2ZyxujE-9" value="Developer" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;" vertex="1" parent="1">
-          <mxGeometry x="761" y="176" width="78" height="78" as="geometry" />
-        </mxCell>
         <mxCell id="UQ3-S7Dx66AIJ2ZyxujE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UQ3-S7Dx66AIJ2ZyxujE-10" target="UQ3-S7Dx66AIJ2ZyxujE-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
