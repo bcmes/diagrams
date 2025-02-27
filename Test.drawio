@@ -31,6 +31,9 @@
         <mxCell id="5ok7K_VNY0OXNwkNnIJL-13" value="O SG do RDS permite solicitacoes do SG da camada de aplicacao na porta do banco de dados" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="5ok7K_VNY0OXNwkNnIJL-1" vertex="1">
           <mxGeometry x="340" y="240" width="200" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MpWA2WPv93gBQgQGuGjF-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Security Group&lt;/h1&gt;&lt;p&gt;Como fazer o DB inacessivel da internet&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="60" width="280" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
