@@ -34,8 +34,8 @@
         <mxCell id="5ok7K_VNY0OXNwkNnIJL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="MpWA2WPv93gBQgQGuGjF-2" source="5ok7K_VNY0OXNwkNnIJL-9" target="5ok7K_VNY0OXNwkNnIJL-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5ok7K_VNY0OXNwkNnIJL-13" value="O SG do RDS permite solicitacoes do SG da camada de aplicacao na porta do banco de dados" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="MpWA2WPv93gBQgQGuGjF-2" vertex="1">
-          <mxGeometry x="324" y="270" width="200" height="30" as="geometry" />
+        <mxCell id="5ok7K_VNY0OXNwkNnIJL-13" value="O SG do RDS permite somente solicitacoes do SG da camada de aplicacao na porta do banco de dados" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="MpWA2WPv93gBQgQGuGjF-2" vertex="1">
+          <mxGeometry x="324" y="280" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MpWA2WPv93gBQgQGuGjF-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Security Group&lt;/h1&gt;&lt;p&gt;Como fazer o DB inacessivel da internet&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="300" y="10" width="280" height="70" as="geometry" />
