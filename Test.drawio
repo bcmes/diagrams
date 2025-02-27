@@ -38,7 +38,7 @@
           <mxGeometry x="324" y="270" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MpWA2WPv93gBQgQGuGjF-3" value="Availability Zone" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" vertex="1" parent="MpWA2WPv93gBQgQGuGjF-2">
-          <mxGeometry x="20" y="90" width="760" height="300" as="geometry" />
+          <mxGeometry x="20" y="80" width="760" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
