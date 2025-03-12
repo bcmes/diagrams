@@ -99,10 +99,10 @@
         <mxCell id="teAWWDw58TekTiphotEC-9" value="EC2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;" vertex="1" parent="teAWWDw58TekTiphotEC-7">
           <mxGeometry x="101" y="102.5" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="teAWWDw58TekTiphotEC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;startFill=0;" edge="1" parent="teAWWDw58TekTiphotEC-1" source="teAWWDw58TekTiphotEC-4" target="teAWWDw58TekTiphotEC-16">
+        <mxCell id="teAWWDw58TekTiphotEC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="teAWWDw58TekTiphotEC-1" source="teAWWDw58TekTiphotEC-3" target="teAWWDw58TekTiphotEC-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teAWWDw58TekTiphotEC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="teAWWDw58TekTiphotEC-1" source="teAWWDw58TekTiphotEC-8" target="teAWWDw58TekTiphotEC-14">
+        <mxCell id="teAWWDw58TekTiphotEC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="teAWWDw58TekTiphotEC-1" source="teAWWDw58TekTiphotEC-7" target="teAWWDw58TekTiphotEC-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
