@@ -108,7 +108,7 @@
             <mxPoint x="690" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="teAWWDw58TekTiphotEC-20" value="Internet Gateway" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_gateway;" vertex="1" parent="teAWWDw58TekTiphotEC-2">
+        <mxCell id="teAWWDw58TekTiphotEC-20" value="&lt;div&gt;Internet Gateway&amp;nbsp;&lt;/div&gt;&lt;div&gt;(Trafego de entrada e saida)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_gateway;" vertex="1" parent="teAWWDw58TekTiphotEC-2">
           <mxGeometry x="671" y="230" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="teAWWDw58TekTiphotEC-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="teAWWDw58TekTiphotEC-2" source="teAWWDw58TekTiphotEC-14" target="teAWWDw58TekTiphotEC-20">
@@ -120,7 +120,7 @@
         <mxCell id="teAWWDw58TekTiphotEC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="teAWWDw58TekTiphotEC-20" target="teAWWDw58TekTiphotEC-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teAWWDw58TekTiphotEC-24" value="NAT Gateway" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.nat_gateway;" vertex="1" parent="1">
+        <mxCell id="teAWWDw58TekTiphotEC-24" value="&lt;div&gt;NAT Gateway&amp;nbsp;&lt;/div&gt;&lt;div&gt;(Trafego só de saída)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.nat_gateway;" vertex="1" parent="1">
           <mxGeometry x="1400" y="-30" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="teAWWDw58TekTiphotEC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="teAWWDw58TekTiphotEC-14" target="teAWWDw58TekTiphotEC-24">
