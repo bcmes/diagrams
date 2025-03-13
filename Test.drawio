@@ -178,8 +178,18 @@
         <mxCell id="WaF5JTWgU8Zhv4YSy3Uy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WaF5JTWgU8Zhv4YSy3Uy-9" target="WaF5JTWgU8Zhv4YSy3Uy-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WaF5JTWgU8Zhv4YSy3Uy-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WaF5JTWgU8Zhv4YSy3Uy-9" target="WaF5JTWgU8Zhv4YSy3Uy-3">
+        <mxCell id="WaF5JTWgU8Zhv4YSy3Uy-20" value="Aceitante" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WaF5JTWgU8Zhv4YSy3Uy-11">
+          <mxGeometry x="0.2527" relative="1" as="geometry">
+            <mxPoint x="-16" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WaF5JTWgU8Zhv4YSy3Uy-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=0;endArrow=none;" edge="1" parent="1" source="WaF5JTWgU8Zhv4YSy3Uy-9" target="WaF5JTWgU8Zhv4YSy3Uy-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WaF5JTWgU8Zhv4YSy3Uy-19" value="Solicitante" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WaF5JTWgU8Zhv4YSy3Uy-14">
+          <mxGeometry x="0.3" y="2" relative="1" as="geometry">
+            <mxPoint x="12" y="-7" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="WaF5JTWgU8Zhv4YSy3Uy-9" value="&lt;div&gt;VPC Peering&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 102, 102));&quot;&gt;Com erro de OVERLAPING&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0);&quot;&gt;Devido as duas VPCs terem o mesmo intervalo de IP 10.0.0.0/16&lt;/span&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_peering;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="470" y="269" width="69" height="72" as="geometry" />
