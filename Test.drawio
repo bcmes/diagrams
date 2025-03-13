@@ -209,6 +209,9 @@
         <mxCell id="WaF5JTWgU8Zhv4YSy3Uy-34" value="VPC - 10.1.0.0/16" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc2;strokeColor=#8C4FFF;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" vertex="1" parent="WaF5JTWgU8Zhv4YSy3Uy-33">
           <mxGeometry x="40" y="40" width="330" height="270" as="geometry" />
         </mxCell>
+        <mxCell id="WaF5JTWgU8Zhv4YSy3Uy-46" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.route_table;" vertex="1" parent="WaF5JTWgU8Zhv4YSy3Uy-34">
+          <mxGeometry x="30" y="97" width="78" height="76" as="geometry" />
+        </mxCell>
         <mxCell id="WaF5JTWgU8Zhv4YSy3Uy-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=1;startArrow=classic;" edge="1" parent="1" source="WaF5JTWgU8Zhv4YSy3Uy-39" target="WaF5JTWgU8Zhv4YSy3Uy-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -228,7 +231,7 @@
         <mxCell id="WaF5JTWgU8Zhv4YSy3Uy-39" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_peering;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="470" y="769" width="68" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="WaF5JTWgU8Zhv4YSy3Uy-44" value="&lt;div&gt;3.Após criar o &quot;Perring Conections&quot; na VPC Ohio, e a VPC Oregon aceitar a conexão. Deve-se ir na Route Table de Oregon e Habilitar&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="WaF5JTWgU8Zhv4YSy3Uy-44" value="&lt;div&gt;3.Após criar o &quot;Perring Conections&quot; na VPC Oregon, e a VPC Ohio aceitar a conexão. Deve-se ir na Route Table de Oregon e Habilitar que o &quot;Peering Conection&quot; criado alcance o destino 10.2.0.0/16. E em seguida ir na Route Table de Ohio e Habilitar que o &quot;Peering Conection&quot; alcance o destino 10.1.0.0/16&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="1000" width="980" height="170" as="geometry" />
         </mxCell>
       </root>
