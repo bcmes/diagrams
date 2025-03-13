@@ -184,6 +184,9 @@
         <mxCell id="WaF5JTWgU8Zhv4YSy3Uy-9" value="&lt;div&gt;VPC Peering&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 102, 102));&quot;&gt;Com erro de OVERLAPING&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0);&quot;&gt;Devido as duas VPCs terem o mesmo intervalo de IP 10.0.0.0/16&lt;/span&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_peering;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="470" y="269" width="69" height="72" as="geometry" />
         </mxCell>
+        <mxCell id="WaF5JTWgU8Zhv4YSy3Uy-15" value="Obs.: Outro ponto importante sobre VPC Peering é: Se a VPC A tem um &quot;VPC Peering&quot; com a B e a B tem com a C, a A não se comunica com a C. Pois VPC Peerings não são transitivas." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="510" width="980" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
