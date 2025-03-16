@@ -275,8 +275,8 @@
         <mxCell id="T2U91v467dz0vXjqYhLF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;fontColor=light-dark(#D86613,#D86613);" edge="1" parent="1" source="T2U91v467dz0vXjqYhLF-13" target="T2U91v467dz0vXjqYhLF-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T2U91v467dz0vXjqYhLF-13" value="Só serve para iniciar e derrubar instancias" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000,#D86613);" vertex="1" parent="1">
-          <mxGeometry x="290" y="60" width="250" height="30" as="geometry" />
+        <mxCell id="T2U91v467dz0vXjqYhLF-13" value="&lt;div&gt;Só serve para iniciar e derrubar instancias.&lt;/div&gt;&lt;div&gt;Template, VPC, SubNets (onde as maquinas serão criadas), Nr Intancias desejadas máxina e minima, etc..&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000,#D86613);" vertex="1" parent="1">
+          <mxGeometry x="290" y="10" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="T2U91v467dz0vXjqYhLF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="T2U91v467dz0vXjqYhLF-16" target="T2U91v467dz0vXjqYhLF-10">
           <mxGeometry relative="1" as="geometry" />
