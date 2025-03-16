@@ -269,10 +269,10 @@
         <mxCell id="T2U91v467dz0vXjqYhLF-12" value="Amazon CloudWatch" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.cloudwatch;" vertex="1" parent="1">
           <mxGeometry x="525" y="150" width="80" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="T2U91v467dz0vXjqYhLF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="T2U91v467dz0vXjqYhLF-13" target="T2U91v467dz0vXjqYhLF-8">
+        <mxCell id="T2U91v467dz0vXjqYhLF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;fontColor=light-dark(#D86613,#D86613);" edge="1" parent="1" source="T2U91v467dz0vXjqYhLF-13" target="T2U91v467dz0vXjqYhLF-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T2U91v467dz0vXjqYhLF-13" value="Só serve para iniciar e derrubar instancias" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="T2U91v467dz0vXjqYhLF-13" value="Só serve para iniciar e derrubar instancias" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000,#D86613);" vertex="1" parent="1">
           <mxGeometry x="290" y="60" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
