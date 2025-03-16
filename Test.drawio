@@ -293,6 +293,12 @@
         <mxCell id="T2U91v467dz0vXjqYhLF-20" value="Target Group" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000,#9A4E11);" vertex="1" parent="1">
           <mxGeometry x="390" y="400" width="88" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="T2U91v467dz0vXjqYhLF-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="T2U91v467dz0vXjqYhLF-21" target="T2U91v467dz0vXjqYhLF-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T2U91v467dz0vXjqYhLF-21" value="Tem um endpoint para fazer HealthCheck nas instancias, usado pelo LB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="465.25" width="169" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
