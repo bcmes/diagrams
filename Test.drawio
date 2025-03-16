@@ -296,7 +296,7 @@
         <mxCell id="T2U91v467dz0vXjqYhLF-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="T2U91v467dz0vXjqYhLF-21" target="T2U91v467dz0vXjqYhLF-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T2U91v467dz0vXjqYhLF-21" value="Tem um endpoint para fazer HealthCheck nas instancias, usado pelo LB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="T2U91v467dz0vXjqYhLF-21" value="&lt;div&gt;- Tem um endpoint para fazer HealthCheck nas instancias, usado pelo LB&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Você indica as instancias que vão pertencer ao TG&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="820" y="465.25" width="169" height="30" as="geometry" />
         </mxCell>
       </root>
