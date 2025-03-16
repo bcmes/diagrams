@@ -323,7 +323,7 @@
         <mxCell id="gh5J0Zo2JFDT9cLa7c70-5" value="Subnet C" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_subnet;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="507" y="380" width="116" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="gh5J0Zo2JFDT9cLa7c70-7" value="Para testar copie o &quot;Nome do DNS&quot; do ALB e jogue no navegador !" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gh5J0Zo2JFDT9cLa7c70-7" value="Para testar copie o &quot;Nome do DNS&quot; do ALB e jogue no navegador e verá que a cada request ele manda para uma instancia diferente." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="750" width="198" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gh5J0Zo2JFDT9cLa7c70-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T2U91v467dz0vXjqYhLF-15" target="gh5J0Zo2JFDT9cLa7c70-7">
