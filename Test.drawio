@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.0" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.1" pages="5">
   <diagram name="AWS" id="C-RQtld53psImpgOf9jY">
     <mxGraphModel dx="1674" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -344,6 +344,23 @@
         </mxCell>
         <mxCell id="gh5J0Zo2JFDT9cLa7c70-11" value="A instancia leva 5min para avisar o CloudWatch, se quiser reduzir esse tempo para 1min, habilite o &quot;Monitoramento detalhado&quot; nas instancias EC2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="820" y="80" width="220" height="135" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZiHhkv6lMT54tiFcdUFt" name="S3">
+    <mxGraphModel dx="1434" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GNl163HNUmTGMBrW8W3O-1" value="S3 File Gateway" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.s3_file_gateway;" vertex="1" parent="1">
+          <mxGeometry x="414" y="179.20000000000002" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GNl163HNUmTGMBrW8W3O-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="GNl163HNUmTGMBrW8W3O-2" target="GNl163HNUmTGMBrW8W3O-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GNl163HNUmTGMBrW8W3O-2" value="SMB" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.smb;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="190" width="80" height="56.4" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
